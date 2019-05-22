@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YouTubeSubtitels/static/css/main.cf3395d8.chunk.css",
+    "main.js": "/YouTubeSubtitels/static/js/main.b094f70b.chunk.js",
+    "main.js.map": "/YouTubeSubtitels/static/js/main.b094f70b.chunk.js.map",
+    "runtime~main.js": "/YouTubeSubtitels/static/js/runtime~main.ea03aa65.js",
+    "runtime~main.js.map": "/YouTubeSubtitels/static/js/runtime~main.ea03aa65.js.map",
+    "static/js/2.8106c15a.chunk.js": "/YouTubeSubtitels/static/js/2.8106c15a.chunk.js",
+    "static/js/2.8106c15a.chunk.js.map": "/YouTubeSubtitels/static/js/2.8106c15a.chunk.js.map",
+    "index.html": "/YouTubeSubtitels/index.html",
+    "precache-manifest.bfbdc2d3b80814d42020c558f136a973.js": "/YouTubeSubtitels/precache-manifest.bfbdc2d3b80814d42020c558f136a973.js",
+    "service-worker.js": "/YouTubeSubtitels/service-worker.js",
+    "static/css/main.cf3395d8.chunk.css.map": "/YouTubeSubtitels/static/css/main.cf3395d8.chunk.css.map"
+  }
+}
