@@ -2,7 +2,7 @@
   "name": "youtube-sub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://markslavenko.github.io/YouTubeSubtitels",
+  "homepage": "https://markslavenko.github.io/YouTubeSubtitels/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
