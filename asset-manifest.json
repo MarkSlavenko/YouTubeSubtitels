@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/YouTubeSubtitels/static/css/main.cf3395d8.chunk.css",
-    "main.js": "/YouTubeSubtitels/static/js/main.b094f70b.chunk.js",
-    "main.js.map": "/YouTubeSubtitels/static/js/main.b094f70b.chunk.js.map",
+    "main.css": "/YouTubeSubtitels/static/css/main.d801fbe9.chunk.css",
+    "main.js": "/YouTubeSubtitels/static/js/main.91ee1d28.chunk.js",
+    "main.js.map": "/YouTubeSubtitels/static/js/main.91ee1d28.chunk.js.map",
     "runtime~main.js": "/YouTubeSubtitels/static/js/runtime~main.ea03aa65.js",
     "runtime~main.js.map": "/YouTubeSubtitels/static/js/runtime~main.ea03aa65.js.map",
-    "static/js/2.8106c15a.chunk.js": "/YouTubeSubtitels/static/js/2.8106c15a.chunk.js",
-    "static/js/2.8106c15a.chunk.js.map": "/YouTubeSubtitels/static/js/2.8106c15a.chunk.js.map",
+    "static/js/2.0ca122bd.chunk.js": "/YouTubeSubtitels/static/js/2.0ca122bd.chunk.js",
+    "static/js/2.0ca122bd.chunk.js.map": "/YouTubeSubtitels/static/js/2.0ca122bd.chunk.js.map",
     "index.html": "/YouTubeSubtitels/index.html",
-    "precache-manifest.bfbdc2d3b80814d42020c558f136a973.js": "/YouTubeSubtitels/precache-manifest.bfbdc2d3b80814d42020c558f136a973.js",
+    "precache-manifest.510759374945c35a4fe944e4ce0fce5f.js": "/YouTubeSubtitels/precache-manifest.510759374945c35a4fe944e4ce0fce5f.js",
     "service-worker.js": "/YouTubeSubtitels/service-worker.js",
-    "static/css/main.cf3395d8.chunk.css.map": "/YouTubeSubtitels/static/css/main.cf3395d8.chunk.css.map"
+    "static/css/main.d801fbe9.chunk.css.map": "/YouTubeSubtitels/static/css/main.d801fbe9.chunk.css.map"
   }
 }

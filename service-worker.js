@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/YouTubeSubtitels/precache-manifest.bfbdc2d3b80814d42020c558f136a973.js"
+  "/YouTubeSubtitels/precache-manifest.510759374945c35a4fe944e4ce0fce5f.js"
 );
 
 self.addEventListener('message', (event) => {
