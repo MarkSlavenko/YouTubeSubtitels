@@ -1,0 +1,21 @@
+.card {
+    background-color: #343a40;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul a{
+    color: #343a40;
+}
+
+li {
+    list-style-type: none;
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}

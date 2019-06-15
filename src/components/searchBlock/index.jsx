@@ -23,10 +23,10 @@ export class SearchBlock extends React.Component  {
     };
 
     findVideos = (ids, searchWord) => {
-        ids.forEach((id) => {
+        ids.forEach((item) => {
 
             let param = {
-                videoID: id, // youtube video id
+                videoID: item.id, // youtube video id
                 lang: this.language // default: `en`
             };
 
@@ -38,10 +38,8 @@ export class SearchBlock extends React.Component  {
                     return afterCheck;
                 })
                 .then(final => {
-                    console.log('ID: ', id);
-                    console.log(final);
                     if (!_.isEmpty(final)) this.setState({
-                        mass_for_video: [...this.state.mass_for_video, `http://www.youtube.com/embed/${id}?autoplay=0&start=${final[0].start}&end=${final[0].start + final[0].dur}`]
+                        mass_for_video: [...this.state.mass_for_video, {id:item.id, pic: item.pic, subs:[...final]}]
                     })
                 });
         });
@@ -52,9 +50,7 @@ export class SearchBlock extends React.Component  {
         let videosTemplate = null
 
         if (mass_for_video.length) {
-            videosTemplate = mass_for_video.map(function(item, i) {
-                return <List key={i} url={item}/>
-            })
+            videosTemplate = <List data={mass_for_video}/>
         } else {
             videosTemplate = <p>No data.</p>
         }
@@ -66,7 +62,8 @@ export class SearchBlock extends React.Component  {
             mass_for_video: []});
         let text = document.getElementsByName("InputValue")[0];
         let afterReques = JSON.parse(this.httpGet(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${text.value}&key=${this.your_api_key}`));
-        let idsToCheck = afterReques.items.map(item => item.id.videoId);
+        let idsToCheck = [];
+        afterReques.items.forEach(item => idsToCheck.push({id: item.id.videoId, pic: item.snippet.thumbnails.medium.url}));
         this.findVideos(idsToCheck, text.value);
     }
 
@@ -93,12 +90,7 @@ export class SearchBlock extends React.Component  {
                         </div>
                     </div>
                 </div>
-
-                {console.log('key key',mass_for_video)}
-                <ul>
                     {this.renderVideos()}
-                </ul>
-
             </div>
         );
     }
